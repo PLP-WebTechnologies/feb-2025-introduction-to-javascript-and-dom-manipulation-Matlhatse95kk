@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavender DOM Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript DOM Interactions</h1>
+    </header>
+
+    <main>
+        <section id="textSection">
+            <h2>Text Modification</h2>
+            <p id="dynamicText">Initial text content</p>
+            <button onclick="modifyText()">Change Text</button>
+        </section>
+
+        <section id="styleSection">
+            <h2>Style Modification</h2>
+            <div id="targetElement" class="box">Styled Element</div>
+            <button onclick="changeStyle()">Toggle Style</button>
+        </section>
+
+        <section id="elementSection">
+            <h2>Element Control</h2>
+            <div id="elementContainer"></div>
+            <button onclick="toggleElement()">Toggle Element</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
